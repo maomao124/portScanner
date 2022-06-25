@@ -51,8 +51,11 @@ public class TCPThread extends Thread
     //端口的类别
     String portType = "0";
 
-    /*
-     *构造函数
+    /**
+     * 构造函数
+     *
+     * @param name      线程名字
+     * @param threadNum 线程总数
      */
     public TCPThread(String name, int threadNum)
     {
@@ -60,8 +63,8 @@ public class TCPThread extends Thread
         this.threadNum = threadNum;
     }
 
-    /*
-     *运行函数
+    /**
+     * 运行函数
      */
     public void run()
     {
