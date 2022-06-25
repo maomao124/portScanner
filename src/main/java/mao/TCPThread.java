@@ -15,7 +15,7 @@ import java.net.UnknownHostException;
  * Date(创建日期)： 2022/6/25
  * Time(创建时间)： 20:43
  * Version(版本): 1.0
- * Description(描述)： 无
+ * Description(描述)： 线程
  */
 
 public class TCPThread extends Thread

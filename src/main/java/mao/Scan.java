@@ -544,7 +544,7 @@ class SubmitAction implements ActionListener
             catch (NumberFormatException e)
             {
                 Toolkit.getDefaultToolkit().beep();
-                JOptionPane.showMessageDialog(null,"错误的ip!\n位于第一个框","错误!", JOptionPane.ERROR_MESSAGE);
+                JOptionPane.showMessageDialog(null, "错误的ip!\n位于第一个框", "错误!", JOptionPane.ERROR_MESSAGE);
                 //Scan.DLGINFO.setText("错误的ip!");
                 //Scan.DLGError.setVisible(true);
                 Scan.Submit.setEnabled(true);
@@ -559,7 +559,7 @@ class SubmitAction implements ActionListener
             catch (NumberFormatException e)
             {
                 Toolkit.getDefaultToolkit().beep();
-                JOptionPane.showMessageDialog(null,"错误的ip!\n位于第二个框","错误!", JOptionPane.ERROR_MESSAGE);
+                JOptionPane.showMessageDialog(null, "错误的ip!\n位于第二个框", "错误!", JOptionPane.ERROR_MESSAGE);
                 //Scan.DLGINFO.setText("错误的ip!");
                 //Scan.DLGError.setVisible(true);
                 Scan.Submit.setEnabled(true);
@@ -574,7 +574,7 @@ class SubmitAction implements ActionListener
             catch (NumberFormatException e)
             {
                 Toolkit.getDefaultToolkit().beep();
-                JOptionPane.showMessageDialog(null,"错误的ip!\n位于第三个框","错误!", JOptionPane.ERROR_MESSAGE);
+                JOptionPane.showMessageDialog(null, "错误的ip!\n位于第三个框", "错误!", JOptionPane.ERROR_MESSAGE);
                 //Scan.DLGINFO.setText("错误的ip!");
                 //Scan.DLGError.setVisible(true);
                 Scan.Submit.setEnabled(true);
@@ -589,7 +589,7 @@ class SubmitAction implements ActionListener
             catch (NumberFormatException e)
             {
                 Toolkit.getDefaultToolkit().beep();
-                JOptionPane.showMessageDialog(null,"错误的ip!\n位于第四个框","错误!", JOptionPane.ERROR_MESSAGE);
+                JOptionPane.showMessageDialog(null, "错误的ip!\n位于第四个框", "错误!", JOptionPane.ERROR_MESSAGE);
                 //Scan.DLGINFO.setText("错误的ip!");
                 //Scan.DLGError.setVisible(true);
                 Scan.Submit.setEnabled(true);
@@ -604,7 +604,7 @@ class SubmitAction implements ActionListener
             catch (NumberFormatException e)
             {
                 Toolkit.getDefaultToolkit().beep();
-                JOptionPane.showMessageDialog(null,"错误的ip!\n位于第五个框","错误!", JOptionPane.ERROR_MESSAGE);
+                JOptionPane.showMessageDialog(null, "错误的ip!\n位于第五个框", "错误!", JOptionPane.ERROR_MESSAGE);
                 //Scan.DLGINFO.setText("错误的目标ip!");
                 //Scan.DLGError.setVisible(true);
                 Scan.Submit.setEnabled(true);
@@ -616,7 +616,7 @@ class SubmitAction implements ActionListener
             if (ip1 < 0 || ip1 > 255 || ip2 < 0 || ip2 > 255 || ip3 < 0 || ip3 > 255 || ipstart < 0 || ipstart > 255)
             {
                 Toolkit.getDefaultToolkit().beep();
-                JOptionPane.showMessageDialog(null,"ip地址应为0-255的整数!","错误!", JOptionPane.ERROR_MESSAGE);
+                JOptionPane.showMessageDialog(null, "ip地址应为0-255的整数!", "错误!", JOptionPane.ERROR_MESSAGE);
                 //Scan.DLGINFO.setText("                    ip地址为0-255的整数!                    ");
                 //Scan.DLGError.setVisible(true);
                 Scan.Submit.setEnabled(true);
@@ -635,7 +635,7 @@ class SubmitAction implements ActionListener
             if (ipend < 0 || ipend > 255)
             {
                 Toolkit.getDefaultToolkit().beep();
-                JOptionPane.showMessageDialog(null,"目标ip地址为0-255的整数!","错误!", JOptionPane.ERROR_MESSAGE);
+                JOptionPane.showMessageDialog(null, "目标ip地址为0-255的整数!", "错误!", JOptionPane.ERROR_MESSAGE);
                 Scan.Submit.setEnabled(true);
                 //Scan.DLGINFO.setText("                    目标ip地址为0-255的整数!                    ");
                 //Scan.DLGError.setVisible(true);
@@ -658,7 +658,7 @@ class SubmitAction implements ActionListener
             catch (UnknownHostException e)
             {
                 Toolkit.getDefaultToolkit().beep();
-                JOptionPane.showMessageDialog(null,"错误的IP或地址不可达!","错误!", JOptionPane.ERROR_MESSAGE);
+                JOptionPane.showMessageDialog(null, "错误的IP或地址不可达!", "错误!", JOptionPane.ERROR_MESSAGE);
                 Scan.Submit.setEnabled(true);
                 //Scan.DLGINFO.setText("            错误的IP或地址不可达!            ");
                 //Scan.DLGError.setVisible(true);
@@ -682,7 +682,7 @@ class SubmitAction implements ActionListener
             catch (UnknownHostException e)
             {
                 Toolkit.getDefaultToolkit().beep();
-                JOptionPane.showMessageDialog(null,"错误的域名或地址不可达!","错误!", JOptionPane.ERROR_MESSAGE);
+                JOptionPane.showMessageDialog(null, "错误的域名或地址不可达!", "错误!", JOptionPane.ERROR_MESSAGE);
                 Scan.Submit.setEnabled(true);
                 //Scan.DLGINFO.setText("            错误的域名或地址不可达!            ");
                 //Scan.DLGError.setVisible(true);
@@ -702,7 +702,7 @@ class SubmitAction implements ActionListener
         catch (NumberFormatException e)
         {
             Toolkit.getDefaultToolkit().beep();
-            JOptionPane.showMessageDialog(null,"错误的端口号或线程数!端口号和线程数必须为整数!","错误!", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null, "错误的端口号或线程数!端口号和线程数必须为整数!", "错误!", JOptionPane.ERROR_MESSAGE);
             Scan.Submit.setEnabled(true);
             //Scan.DLGINFO.setText("错误的端口号或线程数!端口号和线程数必须为整数!");
             //Scan.DLGError.setVisible(true);
@@ -716,7 +716,7 @@ class SubmitAction implements ActionListener
         if (minPort < 0 || minPort > 65535 || minPort > maxPort)
         {
             Toolkit.getDefaultToolkit().beep();
-            JOptionPane.showMessageDialog(null,"最小端口必须是0-65535并且小于最大端口的整数!","错误!", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null, "最小端口必须是0-65535并且小于最大端口的整数!", "错误!", JOptionPane.ERROR_MESSAGE);
             Scan.Submit.setEnabled(true);
             //Scan.DLGINFO.setText("最小端口必须是0-65535并且小于最大端口的整数!");
             //Scan.DLGError.setVisible(true);
@@ -734,7 +734,7 @@ class SubmitAction implements ActionListener
         if (maxPort > 65535)
         {
             Toolkit.getDefaultToolkit().beep();
-            JOptionPane.showMessageDialog(null,"最大端口必须是0-65535并且大于最小端口的整数!","错误!", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null, "最大端口必须是0-65535并且大于最小端口的整数!", "错误!", JOptionPane.ERROR_MESSAGE);
             Scan.Submit.setEnabled(true);
             //Scan.DLGINFO.setText("最大端口必须是0-65535并且大于最小端口的整数!");
             //Scan.DLGError.setVisible(true);
@@ -752,7 +752,7 @@ class SubmitAction implements ActionListener
         if (maxThread < 1 || maxThread > 200)
         {
             Toolkit.getDefaultToolkit().beep();
-            JOptionPane.showMessageDialog(null,"线程数应为1-200的整数!!","错误!", JOptionPane.ERROR_MESSAGE);
+            JOptionPane.showMessageDialog(null, "线程数应为1-200的整数!!", "错误!", JOptionPane.ERROR_MESSAGE);
             Scan.Submit.setEnabled(true);
             //Scan.DLGINFO.setText("                    线程数为1-200的整数!                    ");
             //Scan.DLGError.setVisible(true);
