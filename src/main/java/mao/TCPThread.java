@@ -111,7 +111,6 @@ public class TCPThread extends Thread
                         theTCPSocket = new Socket(hostAddress, port);
                         theTCPSocket.close();
                         Scan.Result.append(hostname + ":" + port);
-
                         //判断端口的类别
                         switch (port)
                         {
@@ -169,6 +168,8 @@ public class TCPThread extends Thread
                             case 15672:
                                 portType = "(RabbitMQ admin)";
                                 break;
+                            default:
+                                portType="0";
 
                         }
 
@@ -217,6 +218,7 @@ public class TCPThread extends Thread
                     theTCPSocket = new Socket(hostAddress, port);
                     theTCPSocket.close();
                     Scan.Result.append(" " + port);
+                    //System.out.println(port);
                     switch (port)
                     {
                         case 21:
@@ -273,6 +275,8 @@ public class TCPThread extends Thread
                         case 15672:
                             portType = "(RabbitMQ admin)";
                             break;
+                        default:
+                            portType="0";
                     }
 
                     //端口没有特定类别
